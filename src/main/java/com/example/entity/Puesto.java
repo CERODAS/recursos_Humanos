@@ -1,4 +1,4 @@
-package entity;
+package com.example.entity;
 
 import java.util.Date;
 
@@ -26,3 +26,4 @@ public class Puesto {
 		public String empleado_modifiacion;
 	}
 }
+
