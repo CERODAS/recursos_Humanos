@@ -22,7 +22,7 @@ import com.example.entity.Persona;
 @RestController
 @RequestMapping(value = "/rrhh")
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:3000")
 public class PersonaController {
 	@Autowired
 	public IDaoPersona daoPrsna;
