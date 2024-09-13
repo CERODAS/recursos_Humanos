@@ -24,6 +24,7 @@ public class Contrato {
     public int id;
 	public int empleado_id;
 	public Date fecha_inicio;
+	@Column(name = "fecha_fin", nullable = true)
 	public Date fecha_fin;
 	public String tipo_contrato;
 	private BigDecimal salario;
